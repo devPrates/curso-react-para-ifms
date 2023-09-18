@@ -1,0 +1,10 @@
+.app_container{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+button {
+    background-color: #FD6F00 !important;
+    border: none !important;
+}

@@ -1,0 +1,17 @@
+.card__skill {
+    width: 180px;
+    height: 140px;
+    background-image: url(../../assets/back.png);
+    background-color: #F8F8F8;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.card__skill img{
+    width: 70px;
+}
+
+.card__skill span {
+    font-weight: 600;
+    font-size: 20px;
+}

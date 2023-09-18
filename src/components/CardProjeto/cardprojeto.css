@@ -1,0 +1,12 @@
+.cardProjeto {
+    width: 270px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.48);
+    padding: 10px;
+}
+
+.cardProjeto img{
+    border-radius: 12px;
+    width: 250px;
+}
