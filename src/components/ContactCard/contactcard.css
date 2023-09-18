@@ -1,0 +1,30 @@
+.cardContact {
+    display: flex;
+    width: 180px;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0;
+    background-color: #a8a8a8;
+    background-image: url(../../assets/back.png);
+    color: #FFF;
+}
+
+.cardContact i{
+    font-size: 40px;
+}
+
+.title_contact {
+    font-weight: 700;
+}
+
+.info_contact {
+    font-size: 12px;
+}
+
+.card-btn {
+    background-color: #5e5e5e !important;
+    background-image: url(../../assets/back.png);
+}

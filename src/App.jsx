@@ -5,8 +5,10 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
-import CardProjeto from './components/CardProjeto/CardProjeto';
 import Projeto from './components/Projetos/Projeto';
+import ContactCard from './components/ContactCard/contactCard';
+import Contato from './components/Contato/Contato';
+
 
 function App() {
 
@@ -17,6 +19,7 @@ function App() {
       <About />
       <Skills />
       <Projeto />
+      <Contato />
     </>
   )
 }

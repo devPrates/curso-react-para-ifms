@@ -1,5 +1,5 @@
 .cardProjeto {
-    width: 270px;
+    width: 200px;
     border-radius: 12px;
     background: #FFF;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.48);
@@ -8,5 +8,15 @@
 
 .cardProjeto img{
     border-radius: 12px;
-    width: 250px;
+    width: 180px;
+}
+
+.text_card {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.descri_card {
+    font-size: 12px;
+    color: #868686;
 }
