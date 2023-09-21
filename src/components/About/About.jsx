@@ -29,7 +29,7 @@ function About() {
           <div className="about__info d-flex flex-column gap-3 mt-3">
             <div className="info__item ">
               <span className="ps-1">UX</span>
-              <ProgressBar animated variant="info" now={40} />
+              <ProgressBar animated variant="info" now={60} />
             </div>
             <div className="info__item ">
               <span className="ps-1">Frontend</span>

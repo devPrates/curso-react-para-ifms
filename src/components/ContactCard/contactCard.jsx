@@ -7,7 +7,7 @@ function ContactCard(props){
                 <i className={props.icon}></i>
                 <span className='title_contact'>{props.title}</span>
                 <span className='info_contact'>{props.info}</span>
-                <button type="button" class="btn btn-primary btn-sm card-btn">Enviar Mensagem</button>
+                <button type="button" class="btn btn-primary btn-sm card-btn mt-3">Enviar Mensagem</button>
             </article>
         </>
     )
