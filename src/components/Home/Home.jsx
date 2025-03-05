@@ -1,39 +1,44 @@
-import React from "react"
 import "./home.css"
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import profile from "../../assets/profile.png"
-
 
 const Home = () => {
 
     return (
-        <>
-        <section className="container" id="Home"> 
-            <div className="d-flex home_container justify-content-center align-items-center flex-wrap gap-5">
-                <div className="home_descricao">
-                            <p>Olá, Eu sou</p>
-                            <h3>Jãozinho do Grau</h3>
-                            <h1>Desenvolvedor</h1>
-                            <h1>De Software</h1>
+        <section className="container-fluid d-flex align-items-center" style={{ height: "100vh" }}>
+        <div className="row w-100 align-items-center"> {/* Adicionando align-items-center aqui */}
+          {/* Imagem à Esquerda */}
+          <div className="col-md-6 d-flex justify-content-center">
+            <img
+              src={profile} // Substitua por sua imagem real
+              alt="João da Silva"
+              className="img-fluid rounded-circle"
+              style={{ maxWidth: "50%" }}
+            />
+          </div>
 
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nobis, hic, dignissimos similique provident optio magni ducimus nisi iure, placeat ut reiciendis doloribus expedita magnam explicabo ratione velit illo tempora?</p>
-                            <div className="d-flex flex-wrap gap-3 home_buttons">
-                             <button type="button" className="btn btn-primary btn-sm">Contato</button>
-
-                             <button type="button" className="btn btn-primary btn-sm">Baixar Curriculo</button>
-                            </div>
-                </div>
-                <div className="profile W-25 d-flex flex-column align-items-center gap-4">
-                <img src={profile} alt="" />
-                            <div className="d-flex gap-2 ">
-                            <i className='bx bxl-github icon'></i>
-                            <i className='bx bxl-linkedin-square icon'></i>
-                            <i className='bx bxl-instagram-alt icon'></i>
-                            <i className='bx bxl-facebook-square icon'></i>
-                            </div>
-                </div>
+          {/* Conteúdo à Direita */}
+          <div className="col-md-6 text-center text-md-start">
+            <h1>João da Silva</h1>
+            <p>
+              Desenvolvedor Front-End com foco em criar interfaces agradáveis e funcionais. Estou sempre
+              buscando aprender novas tecnologias e melhorar minhas habilidades.
+            </p>
+            <div>
+              <a href="https://github.com/joaodasilva" target="_blank" rel="noreferrer"  className="btn btn-outline-dark m-2">
+                <FaGithub /> GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/joaodasilva" target="_blank" rel="noreferrer" className="btn btn-outline-dark m-2">
+                <FaLinkedin /> LinkedIn
+              </a>
+              <a href="https://twitter.com/joaodasilva" target="_blank" rel="noreferrer" className="btn btn-outline-dark m-2">
+                <FaTwitter /> Twitter
+              </a>
             </div>
-        </section>
-        </>
+          </div>
+        </div>
+      </section>
+
     )
 }
 export default Home
